@@ -1,0 +1,90 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SamacSys_Parts_0ZRS1000FF1A
+#
+DEF SamacSys_Parts_0ZRS1000FF1A F 0 30 Y Y 1 F N
+F0 "F" 550 250 50 H V L CNN
+F1 "SamacSys_Parts_0ZRS1000FF1A" 550 150 50 H V L CNN
+F2 "0ZRS1000FF1A" 550 50 50 H I L CNN
+F3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zrs-series.pdf" 550 -50 50 H I L CNN
+F4 "Resettable Fuses - PPTC Resettable Fuse, 10A AEC-Q200" 550 -150 50 H I L CNN "Description"
+F5 "27.9" 550 -250 50 H I L CNN "Height"
+F6 "Stewart Connector" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0ZRS1000FF1A" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "530-0ZRS1000FF1A" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bel-Fuse/0ZRS1000FF1A?qs=P1JMDcb91o5AvyIEviOjGQ%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "0ZRS1000FF1A" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/0zrs1000ff1a/bel-group" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 2 0 1 6 200 0 500 0 N
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# XT60PW-F_XT60PW-F
+#
+DEF XT60PW-F_XT60PW-F J 0 40 Y Y 1 L N
+F0 "J" -200 250 50 H V L BNN
+F1 "XT60PW-F_XT60PW-F" -200 -350 50 H V L BNN
+F2 "AMASS_XT60PW-F" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F5 "8.4 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "V1.2" 0 0 50 H I L BNN "PARTREV"
+F7 "AMASS" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -200 -300 200 200 0 0 10 f
+X 1 1 -400 100 200 R 40 40 0 0 P
+X 2 2 -400 0 200 R 40 40 0 0 P
+X SHIELD S1 -400 -200 200 R 40 40 0 0 P
+X SHIELD S2 -400 -200 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_+BATT
+#
+DEF power_+BATT #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+BATT" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +BATT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
